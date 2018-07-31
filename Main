@@ -1,0 +1,31 @@
+/*
+
+    RandomAyat.java
+  
+   This file is the main file for RandomAyat.  It calls the panle file and runs
+   the program.
+   
+   @author Anthony Snowden
+   @version 1.2
+**/
+import javax.swing.*;
+
+
+public class RandomAyat
+{
+
+public static void main (String[] args)
+      {
+       JFrame frame = new JFrame ("Ayat Selector");
+       frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+       
+        frame.getContentPane().add(new RAPanel());
+        frame.pack();
+        frame.setLocation(520, 32);
+        frame.setVisible(true);
+
+      }
+
+      
+
+}
